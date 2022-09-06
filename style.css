@@ -1,0 +1,144 @@
+body, html{
+    font-family: 'Roboto', sans-serif;
+    height:100%;
+    width:100%;
+}
+
+
+ul,li{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.header__content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.header__logo{
+    margin-left: 95px;
+    margin-top: 21px;
+}
+
+.logo__icon{
+    height: 24px;
+    background: url(.png);
+    border-radius: 0px;
+    margin-left: 96px;
+    margin-top: 21px;
+    
+}
+
+
+.nav__li{
+    display:inline-block;
+}
+
+.nav__li:not(:last-of-type){
+    margin-right: 45px;
+}
+
+.nav__link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1C1C1C;
+}
+
+.button{
+    
+    height: 40px;
+    width: 154px;
+    background: #6F2CFF;
+    border-radius: 20px; 
+    color: white;
+    margin: 34px 13px;
+}
+
+.wrapper {
+
+    height: 687px;
+    background: #F6BED9;
+    border-radius: 0px;
+    left: 0%;
+    right: 0%;
+    top: 68px;
+    padding: 97px 232px;
+}
+.preview content{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+}
+
+
+.preview__subtitle{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 61px;
+    color: #000000;
+    margin-top: 171px;
+    margin-left: 97px;
+}
+
+.preview__title{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 54px;
+    color: #6F2DFF;
+    margin-top: 0;
+    margin-left: 97px;
+    }
+
+.preview__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 0;
+    margin-left: 97px;
+    width: 438px;
+ }
+
+
+
+.preview input{
+    box-sizing: border-box;
+    height: 45px;
+    top: calc(50% - 45px/2 - 522px);
+    background: #FFFFFF;
+    border: 1px solid #6F2CFF;
+    border-radius: 28px 28px 28px 27.5px;
+    margin-left: 97px;
+    max-width: 268px;
+    padding: 13px 26px 11px 13px;
+}
+
+.input::placeholder{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.27);
+}
+
+.preview__image{
+    
+  flex-direction: row-reverse;
+   
+}
+   
+
+.preview__item{
+    margin-top: 0;
+    margin-bottom: 200px;
+ }
+}
+   
