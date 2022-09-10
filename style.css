@@ -60,6 +60,15 @@ ul,li{
 }
 
 
+.nav__link:hover{
+    font-weight: 900;
+    font-size: 14px;
+    color: #726a6a;
+    text-decoration: none;
+   
+}
+
+
 
 
 .button{
@@ -71,6 +80,18 @@ ul,li{
     color: white;
     margin:13px 95px;
     border: none;
+}
+
+.button:hover{
+    
+    height: 40px;
+    width: 154px;
+    background: #9689b3;
+    border-radius: 20px; 
+    color: white;
+    margin:13px 95px;
+    border: none;
+    transition: 200ms;
 }
 
 .wrapper{
@@ -132,6 +153,18 @@ background: #F6BED9;
     margin-left: 97px;
     max-width: 268px;
     padding: 13px 26px 11px 13px;
+}
+
+.preview input:hover{
+    height: 45px;
+    top: calc(50% - 45px/2 - 522px);
+    background: #eae4e4;
+    border: 1px solid #6F2CFF;
+    border-radius: 28px 28px 28px 27.5px;
+    margin-left: 97px;
+    max-width: 268px;
+    padding: 13px 26px 11px 13px;
+    transition: 200ms;
 }
 
 .input::placeholder{
@@ -310,4 +343,13 @@ margin-bottom: 67px;
  color: #FFFFFF;
 
 }
+
+.menu__link:hover{
+    text-decoration:none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ded1d1;
+   
+   }
 
