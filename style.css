@@ -55,6 +55,7 @@ ul,li{
     font-weight: 900;
     font-size: 14px;
     color: #000000;
+    text-decoration: none;
    
 }
 
@@ -72,7 +73,7 @@ ul,li{
 }
 
 .wrapper{
-    max-width: 1440px ;
+   
     margin: 0 auto;
 }
 .preview{
@@ -117,6 +118,7 @@ background: #F6BED9;
     margin-left: 97px;
     width: 438px;
  }
+
 
 
 
@@ -222,23 +224,33 @@ background: #F6BED9;
     margin-top: 167.25px;
  }
 
+ .commerce__content{
+    margin: 0 auto;
+    
+ }
+
  .commerce__socials{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
     margin-bottom: 136px;
+    padding-right: 90px;
+    text-align: center;
+  
+
  }
 
  .commerce__image{
     margin-top: 164px;
     margin-left: 145px;
-    text-align: center;
+   
   
  }
  .commerce__image:last-child{
     margin-top: 180px;
- }
+    
+ } 
 
  .commerce__subtitle{
     font-weight: 700;
@@ -247,7 +259,7 @@ background: #F6BED9;
     text-align: center;
     color: #000000;
     margin-bottom: 13px;
-    margin-top: 45px;
+    margin-top: 45pxІ;
 
  }
  .commerce__text{
@@ -259,7 +271,6 @@ background: #F6BED9;
  }
 
  .footer{
-    max-width: 1440px;
     margin: 0 auto;
  }
 
@@ -292,7 +303,10 @@ margin-bottom: 67px;
 
 .menu__link{
  text-decoration:none;
- font-size:16px;
- color: rgb(154, 92, 12);
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 21px;
+ color: #FFFFFF;
+
 }
 
